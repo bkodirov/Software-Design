@@ -1,0 +1,7 @@
+package comand.player;
+
+/**
+ * Created by Beka on 10.04.17.
+ */
+public interface ICommand {
+}
