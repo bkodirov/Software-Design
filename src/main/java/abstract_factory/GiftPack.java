@@ -26,8 +26,8 @@ public class GiftPack {
             case "Kids":
                 factory = new KidsFactory();
                 break;
-                default:
-                    throw new IllegalArgumentException("There is no type for"+type);
+            default:
+                throw new IllegalArgumentException("There is no type for" + type);
         }
     }
 
