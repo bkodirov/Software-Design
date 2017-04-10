@@ -1,4 +1,5 @@
 package iterator;
 
-public interface Aggregate { public Iterator getIterator();
+public interface Aggregate {
+     Iterator getIterator();
 }
