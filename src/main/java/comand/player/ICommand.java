@@ -3,5 +3,12 @@ package comand.player;
 /**
  * Created by Beka on 10.04.17.
  */
-public interface ICommand {
+public abstract class ICommand {
+    protected Receiver receiver;
+
+    public ICommand(Receiver receiver) {
+        this.receiver = receiver;
+    }
+
+    public abstract void doAction();
 }
