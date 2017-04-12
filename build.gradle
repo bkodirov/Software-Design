@@ -2,6 +2,8 @@ group 'sd'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
+apply from: 'http://dl.bintray.com/content/shemnon/javafx-gradle/javafx.plugin'
+
 
 sourceCompatibility = 1.8
 

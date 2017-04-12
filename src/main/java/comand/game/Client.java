@@ -26,7 +26,6 @@ public class Client {
         //Simulating doing some action by user side
         i.onUserSomethingDidListener();
 
-
         //Simulating canceling last action by user side
         i.onUserCanceled();
     }

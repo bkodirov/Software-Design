@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<GridPane alignment="center" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml/1"
+          xmlns="http://javafx.com/javafx/8.0.112" fx:controller="memento.ui.Controller">
+    <children>
+        <VBox alignment="CENTER" spacing="5">
+            <children>
+                <Label text="Edit your profile here"/>
+                <TextArea fx:id="textArea"/>
+                <HBox alignment="CENTER" spacing="5">
+                    <children>
+                        <Button fx:id="buttonLoad" onAction="#onLoad" prefHeight="27.0" prefWidth="70.0" text="Load"/>
+                        <Button fx:id="buttonUndo" onAction="#onUndo" prefHeight="27.0" prefWidth="70.0" text="Undo"/>
+                        <Button fx:id="buttonSave" onAction="#onSave" prefHeight="27.0" prefWidth="70.0" text="Save"/>
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+</GridPane>

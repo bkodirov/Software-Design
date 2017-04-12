@@ -4,11 +4,19 @@ package template;
  * Created by Beka on 09.04.17.
  */
 public class ConcreteCharProcessor1 extends AbstractCharProcessor {
-    public String identifySymmetry(String[] arr) {
-        return arr[0];
+    public SymmetryType identifySymmetry(String[] arr) {
+        switch (arr[0]){
+            case "HORIZONTAL":
+                return SymmetryType.HORIZONTAL;
+            case "VERTICAL":
+                return  SymmetryType.VERTICAL;
+            case "NONE":
+                return SymmetryType.NONE;
+        }
+        return null;
     }
 
-    public String[][] reconstructLetter(String[] src, String type) {
+    public String[][] reconstructLetter(String[] src, SymmetryType type) {
         int column = Integer.valueOf(src[1]);
         int row = Integer.valueOf(src[2]);
         int finalColumn = Integer.valueOf(src[3]);
@@ -16,7 +24,7 @@ public class ConcreteCharProcessor1 extends AbstractCharProcessor {
         String[][] result = null;
 
         switch (type) {
-            case "VERTICAL":
+            case VERTICAL:
                 result = new String[column][row * 2];
                 for (int a = 0; a < column; a++) {
                     for (int i = 0, j = row * 2 - 1; i < row; i++, j--) {
@@ -24,9 +32,9 @@ public class ConcreteCharProcessor1 extends AbstractCharProcessor {
                     }
                 }
                 break;
-            case "HORIZONTAL":
+            case HORIZONTAL:
                 break;
-            case "NONE":
+            case NONE:
                 break;
         }
         complete(result);
