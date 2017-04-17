@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="state.UiController">
+    <children>
+        <VBox alignment="CENTER" spacing="5">
+            <children>
+                <Label text="Speed" />
+                <Label fx:id="label" />
+                <HBox>
+                    <children>
+                        <RadioButton fx:id="regular" text="Regular" />
+                        <RadioButton fx:id="gravel" text="Gravel" />
+                        <RadioButton fx:id="wet" text="Wet" />
+                        <RadioButton fx:id="ice" text="Ice" />
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER" spacing="5">
+                    <children>
+                        <Button onAction="#onLeft" prefHeight="27.0" prefWidth="70.0" text="⟵" />
+                        <Button onAction="#onRight" prefHeight="27.0" prefWidth="70.0" text="⟶" />
+                        <Button onAction="#onAccel" prefHeight="27.0" prefWidth="90.0" text="Accelerate" />
+                        <Button onAction="#onBrake" prefHeight="27.0" prefWidth="90.0" text="Break" />
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+</GridPane>
