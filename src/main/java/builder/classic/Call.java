@@ -46,7 +46,7 @@ public class Call {
 
     /**
      * This method simulates retriving or creating new customer
-     * Method returns Customer if there is any customer with this phone number in DataBase. Otherwise it will create
+     * Method returns CustomerFlyweight if there is any customer with this phone number in DataBase. Otherwise it will create
      * new record in DB and returns newly created data
      *
      * @param callerNumber
