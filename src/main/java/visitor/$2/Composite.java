@@ -7,7 +7,7 @@ import java.util.List;
  * Created by Beka on 24.04.17.
  */
 public abstract class Composite implements Component {
-    protected List<Composite> compositeList = new ArrayList<>();
+    private List<Composite> compositeList = new ArrayList<>();
     private final String name;
     private final Side side;
 
@@ -20,6 +20,10 @@ public abstract class Composite implements Component {
         for (Composite composite : composites) {
             compositeList.add(composite);
         }
+    }
+
+    public List<Composite> getChilds(){
+        return  compositeList;
     }
 
     @Override

@@ -10,11 +10,7 @@ public class Node extends Composite {
     }
 
     @Override
-    public int accept(NodeVisitor visitor) {
-        int counter = 1;
-        for (Composite composite : compositeList) {
-            counter += composite.accept(visitor);
-        }
-        return counter;
+    public void accept(NodeVisitor visitor) {
+        visitor.visit(this);
     }
 }
