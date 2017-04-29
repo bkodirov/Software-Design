@@ -13,7 +13,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("/state.fxml"));
-        primaryStage.setTitle("State pattern");
+        primaryStage.setTitle("Player pattern");
         primaryStage.setScene(new Scene(root, 400, 375));
         primaryStage.show();
     }
