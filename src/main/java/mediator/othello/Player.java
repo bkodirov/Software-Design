@@ -11,19 +11,19 @@ public enum Player {
     WHITE {
         @Override
         public Image getImage() {
-            URL url = getClass().getResource("/othello/white.png");
+            URL url = getClass().getResource("/reversi/white.png");
             return new Image(url.toExternalForm());
         }
     }, BLACK {
         @Override
         public Image getImage() {
-            URL url = getClass().getResource("/othello/black.png");
+            URL url = getClass().getResource("/reversi/black.png");
             return new Image(url.toExternalForm());
         }
     }, EMPTY {
         @Override
         public Image getImage() {
-            URL url = getClass().getResource("/othello/empty.png");
+            URL url = getClass().getResource("/reversi/empty.png");
             return new Image(url.toExternalForm());
         }
     };

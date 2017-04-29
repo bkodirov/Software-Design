@@ -1,6 +1,7 @@
-package mediator.othello;
+package mediator.othello.mediator;
 
 import javafx.scene.image.ImageView;
+import mediator.othello.Player;
 import mediator.othello.game.Position;
 
 /**

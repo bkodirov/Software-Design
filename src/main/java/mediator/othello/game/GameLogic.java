@@ -1,9 +1,8 @@
 package mediator.othello.game;
 
-import mediator.othello.BoardMediatorImpl;
-import mediator.othello.Mediator;
+import mediator.othello.mediator.BoardMediatorImpl;
+import mediator.othello.mediator.Mediator;
 import mediator.othello.Player;
-import mediator.othello.board.ImageGridGame;
 
 /**
  * Created by Beka on 28.04.17.
@@ -78,11 +77,11 @@ public class GameLogic {
         return countCellsIf((x, y) -> turnPieces(player, x, y, false) > 0);
     }
 
-    public int countCellsIf(ImageGridGame.CellFunction<Boolean> fun) {
+    public int countCellsIf(CellFunction<Boolean> fun) {
         return countCells((x, y) -> fun.applyCell(x, y) ? 1 : 0, 0, 0, column, row);
     }
 
-    public int countCells(ImageGridGame.CellFunction<Integer> fun, int startX, int startY, int width, int height) {
+    public int countCells(CellFunction<Integer> fun, int startX, int startY, int width, int height) {
         int accum = 0;
         for (int x = startX; x < (startX + width) && x < column; x++) {
             for (int y = startY; y < (startY + height) && y < row; y++) {
@@ -147,5 +146,10 @@ public class GameLogic {
 
     public interface OnGameStatusChangeListener{
         void onStatusChanged(String status);
+    }
+
+    // count cells
+    public  interface CellFunction<T> {
+        T applyCell(int x, int y);
     }
 }

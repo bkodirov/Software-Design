@@ -1,5 +1,6 @@
-package mediator.othello;
+package mediator.othello.mediator;
 
+import mediator.othello.Player;
 import mediator.othello.game.Position;
 
 /**

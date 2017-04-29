@@ -7,13 +7,17 @@ import javafx.scene.image.ImageView;
 import mediator.othello.board.BoardGrid;
 import mediator.othello.game.GameLogic;
 import mediator.othello.game.Position;
+import mediator.othello.mediator.BoardMediatorImpl;
+import mediator.othello.mediator.Cell;
+import mediator.othello.mediator.Colleague;
+import mediator.othello.mediator.Mediator;
 
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ResourceBundle;
 
-public class NewOthello implements Initializable {
+public class Reversi implements Initializable {
 
     @FXML Label statusLabel;
     @FXML protected BoardGrid gridPanel;

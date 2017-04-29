@@ -1,4 +1,6 @@
-package mediator.othello;
+package mediator.othello.mediator;
+
+import mediator.othello.Player;
 
 /**
  * Created by Beka on 28.04.17.

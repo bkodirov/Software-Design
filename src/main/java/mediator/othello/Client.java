@@ -12,8 +12,7 @@ import javafx.stage.Stage;
 public class Client extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("/othello/new_othello.fxml"));
-//        Parent root = FXMLLoader.load(getClass().getResource("/othello/Othello.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/reversi/reversi.fxml"));
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
     }

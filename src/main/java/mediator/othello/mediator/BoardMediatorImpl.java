@@ -1,5 +1,6 @@
-package mediator.othello;
+package mediator.othello.mediator;
 
+import mediator.othello.Player;
 import mediator.othello.game.GameLogic;
 import mediator.othello.game.Position;
 
@@ -20,7 +21,7 @@ public class BoardMediatorImpl implements Mediator {
         }
         colleagueList.addAll(colleagues);
         gameLogic.setMediator(this);
-        updateColleague(3,3,Player.WHITE);
+        updateColleague(3,3, Player.WHITE);
         updateColleague(3,4,Player.BLACK);
         updateColleague(4,3,Player.BLACK);
         updateColleague(4,4,Player.WHITE);
