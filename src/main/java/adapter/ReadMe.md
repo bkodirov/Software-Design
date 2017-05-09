@@ -1,4 +1,4 @@
-**_The Adapter Pattern_**
+#**_The Adapter Pattern_**
 
 **Intent**
 

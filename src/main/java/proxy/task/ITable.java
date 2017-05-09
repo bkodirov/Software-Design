@@ -1,4 +1,4 @@
-package proxy;
+package proxy.task;
 
 /**
  * Choice 1: Implement a synchronization proxy discussed in Scenario 3.

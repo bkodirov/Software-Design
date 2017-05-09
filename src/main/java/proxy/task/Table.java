@@ -1,4 +1,4 @@
-package proxy;
+package proxy.task;
 
 /**
  * Created by Beka on 09.04.17.

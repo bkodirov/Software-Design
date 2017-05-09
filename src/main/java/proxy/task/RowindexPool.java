@@ -1,4 +1,4 @@
-package proxy;
+package proxy.task;
 
 import java.util.Map;
 import java.util.WeakHashMap;
