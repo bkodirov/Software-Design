@@ -1,4 +1,4 @@
-package abstract_factory;
+package abstract_factory.task;
 
 public class Address {
     private String street1;

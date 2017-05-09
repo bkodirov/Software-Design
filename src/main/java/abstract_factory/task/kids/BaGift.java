@@ -1,7 +1,7 @@
-package abstract_factory.kids;
+package abstract_factory.task.kids;
 
-import abstract_factory.AbstractGiftItem;
-import abstract_factory.PackType;
+import abstract_factory.task.AbstractGiftItem;
+import abstract_factory.task.PackType;
 
 /**
  * Created by Beka on 10.04.17.

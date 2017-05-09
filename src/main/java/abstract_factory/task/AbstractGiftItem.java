@@ -1,4 +1,4 @@
-package abstract_factory;
+package abstract_factory.task;
 
 import java.util.UUID;
 

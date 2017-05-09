@@ -1,8 +1,8 @@
-package abstract_factory;
+package abstract_factory.task;
 
-import abstract_factory.adult.AdultsFactory;
-import abstract_factory.bussiness.BusinessFactory;
-import abstract_factory.kids.KidsFactory;
+import abstract_factory.task.adult.AdultsFactory;
+import abstract_factory.task.bussiness.BusinessFactory;
+import abstract_factory.task.kids.KidsFactory;
 
 import java.util.ArrayList;
 import java.util.List;

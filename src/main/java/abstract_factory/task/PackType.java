@@ -1,4 +1,4 @@
-package abstract_factory;
+package abstract_factory.task;
 
 /**
  * Created by Beka on 10.04.17.

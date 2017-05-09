@@ -9,7 +9,6 @@ Define the skeleton of an algorithm in an operation, deferring some steps to sub
 Sometimes you want to specify the order of operations that a method uses, but allow subclasses to provide their own implementations of some of these operations
 
 **Structure**
-- An adapter relies on object composition
 ![Structure](https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Template_Method_UML.svg/600px-Template_Method_UML.svg.png)
 
 **Participants**

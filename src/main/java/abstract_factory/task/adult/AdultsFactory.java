@@ -1,8 +1,8 @@
-package abstract_factory.adult;
+package abstract_factory.task.adult;
 
-import abstract_factory.AbstractFactory;
-import abstract_factory.AbstractGiftItem;
-import abstract_factory.PackType;
+import abstract_factory.task.AbstractFactory;
+import abstract_factory.task.AbstractGiftItem;
+import abstract_factory.task.PackType;
 
 /**
  * Created by Beka on 10.04.17.

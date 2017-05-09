@@ -10,7 +10,6 @@ Provide a surrogate or placeholder for another object to control access to it.
 - A proxy object can act as the intermediary between the client and the target object.
 
 **Structure**
-- An adapter relies on object composition
 ![Structure](https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Proxy_pattern_diagram.svg/800px-Proxy_pattern_diagram.svg.png)
 
 **Participants**

@@ -12,7 +12,6 @@ Specify the kinds of objects to create using a prototypical instance, and create
 - When creating a large/complex object that is resource intensive, cloning works better than using the constructor sometimes.
 
 **Structure**
-- An adapter relies on object composition
 ![Structure](https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Prototype_UML.svg/1200px-Prototype_UML.svg.png)
 
 **Participants**

@@ -17,7 +17,6 @@ Define an interface for creating an object, but let subclasses (concrete class t
     - Instantiates the selected class and returns it as an instance of the parent class type.
 
 **Structure**
-- An adapter relies on object composition
 ![Structure](https://sourcemaking.com/files/v2/content/patterns/Factory_Method.svg)
 
 **Participants**
