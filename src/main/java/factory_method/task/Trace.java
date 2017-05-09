@@ -1,4 +1,4 @@
-package factory_method;
+package factory_method.task;
 
 public interface Trace {
     // turn on and off debugging

@@ -1,4 +1,4 @@
-package factory_method;
+package factory_method.task;
 
 import java.io.*;
 

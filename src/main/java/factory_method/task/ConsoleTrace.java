@@ -1,4 +1,4 @@
-package factory_method;
+package factory_method.task;
 
 /**
  * Created by Beka on 10.04.17.
