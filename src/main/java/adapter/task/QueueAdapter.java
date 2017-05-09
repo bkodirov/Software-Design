@@ -1,6 +1,6 @@
-package adapter;
+package adapter.task;
 
-import java.util.Stack;
+import java.util.Queue;
 
 /**
  * Created by Beka on 09.04.17.
@@ -31,23 +31,24 @@ import java.util.Stack;
  * You want to use an existing class that performs similar functions but with a different interface. For example, a
  * third-party report generator based on xml input.
  */
-public class StackAdapter implements Target {
-    //This is an our Adaptee!!!
-    private final Stack<String> stack;
+public class QueueAdapter implements Target{
 
-    public StackAdapter(Stack<String> stack) {
-        this.stack = stack;
+    //This is an our Adaptee!!!
+    private final Queue<String>  queue;
+
+    public QueueAdapter(Queue<String> queue) {
+        this.queue = queue;
     }
 
     public void push(String str) {
-        stack.push(str);
+        queue.offer(str);
     }
 
     public String pop() {
-        return stack.pop();
+        return queue.remove();
     }
 
     public boolean isEmpty() {
-        return stack.isEmpty();
+        return queue.isEmpty();
     }
 }

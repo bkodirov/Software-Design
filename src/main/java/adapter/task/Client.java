@@ -1,4 +1,4 @@
-package adapter;
+package adapter.task;
 
 import java.util.LinkedList;
 import java.util.Queue;

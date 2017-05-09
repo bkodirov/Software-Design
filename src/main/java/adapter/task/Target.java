@@ -1,4 +1,4 @@
-package adapter;
+package adapter.task;
 
 /**
  * Created by Beka on 09.04.17.
