@@ -1,4 +1,4 @@
-package prototype;
+package prototype.task;
 
 import java.io.Serializable;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package prototype;
+package prototype.task;
 
 /**
  * Created by Beka on 10.04.17.
