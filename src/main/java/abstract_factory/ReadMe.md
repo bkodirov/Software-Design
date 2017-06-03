@@ -13,17 +13,15 @@ Provide an interface for creating families of related or dependent objects witho
 
 **Participants**
 
-`AbstractFactory`
-- declares an interface for operations that create abstract product objects.
-`ConcreteFactory`
-- implements the operations to create concrete product objects.
-`AbstractProduct`
-- declares an interface for a type of product object.
+`AbstractFactory` - declares an interface for operations that create abstract product objects.
+`ConcreteFactory` - implements the operations to create concrete product objects.
+`AbstractProduct` - declares an interface for a type of product object.
+<br/>
 `ConcreteProduct`
 - defines a product object to be created by the corresponding concrete factory.
 - implements the Abstract Product interface.
-`Client`
-- uses only interfaces declared by AbstractFactory and AbstractProduct classes.
+
+`Client` - uses only interfaces declared by AbstractFactory and AbstractProduct classes.
 
 Consequences
 - It isolates concrete classes. Product class names are isolated in the implementation of the concrete factory; they do not appear in client code.

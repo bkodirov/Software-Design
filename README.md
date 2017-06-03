@@ -1,6 +1,6 @@
-#**_GOF Design patterns_**
+# **_GOF Design patterns_**
 
-#Creational patterns
+# Creational patterns
 
 [Singleton](/src/main/java/singleton)
 <br/>
@@ -12,7 +12,7 @@
 <br/>
 [Builder](/src/main/java/builder)
 
-#Structural
+# Structural
 
 [Adapter](/src/main/java/adapter)
 <br/>
@@ -28,7 +28,7 @@
 <br/>
 [Decorator](/src/main/java/)
 
-#Behavioral
+# Behavioral
 
 [Template](/src/main/java/template)
 <br/>

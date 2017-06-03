@@ -1,4 +1,4 @@
-package iterator;
+package iterator.task;
 
 public class NameRepository implements Aggregate {
     private String names[][] = {{"Rob", "Jon", "-"}, {"Jul", "-", "Lor", "Pat", "-"}, {"-", "-", "Ken"}};
