@@ -18,4 +18,15 @@ public class Address {
     //This constructor is just for make life easier
     public Address() {
     }
+
+    @Override
+    public String toString() {
+        return "Address{" +
+                "street1='" + street1 + '\'' +
+                ", street2='" + street2 + '\'' +
+                ", city='" + city + '\'' +
+                ", state='" + state + '\'' +
+                ", zipcode='" + zipcode + '\'' +
+                '}';
+    }
 }

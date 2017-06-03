@@ -5,8 +5,11 @@ package abstract_factory.task;
  */
 public class Client {
     public static void main(String[] args) {
-        Address shippingAddress=new Address();
-        GiftPack pack=new GiftPack(shippingAddress, "");
-
+        Address shippingAddress = new Address();
+        GiftPack pack = new GiftPack(shippingAddress, "Kids");
+        pack.addBagGift();
+        pack.addBoxGift();
+        pack.addWrapGift();
+        pack.calculate();
     }
 }

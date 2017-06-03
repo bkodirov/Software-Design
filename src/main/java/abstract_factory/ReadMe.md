@@ -37,3 +37,9 @@ Use the Abstract Factory pattern in any of the following situations:
 - A class can't anticipate the class of objects it must create. 
 - A system must use just one of a set of families of products.
 - A family of related product objects is designed to be used together, and you need to enforce this constraint.
+
+<hr/>
+**Task**
+
+An online business sells gift items to both individuals and businesses. Each order is treated as a gift pack that may contain 1 or more gift items. When a customer places an order, the type of the gift pack has to be specified as one of the 3 - Business, Adults, or Kids. Depending on the gift pack type, each individual gift item needs to be packaged accordingly. For example, a gift item for a kid can be packaged with a „Micky Gift Bag‟, or a „Cartoon Box‟ or the „Happy Kid‟ gift wrap which has a different cost associated with each option (selected by the person placing the order). For now, there are only 3 available options – gift bag, gift box or gift wrap. For the Business type, the options are „Merchant Collection‟ bag, „Hard Plastic‟ box and „Holiday Surprise‟ wrap. For the Adults, they „Reusable Shopper‟ bag, „Plain Paper‟ box, and „Everyday Value‟ wrap. Prices as listed below.
+![Structure](http://imgur.com/a/4nZka)
