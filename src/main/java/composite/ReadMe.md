@@ -47,5 +47,5 @@ Below is a high-level view of the browser architecture. We are going to implemen
 The rendering engine processes/renders information in the following sequence. The “render tree” is created in the second “box” in the diagram.
 ![Structure](http://i.imgur.com/HcFJkL1.png)
 
-[Task solution](../task)
+[Task solution](/task)
 
