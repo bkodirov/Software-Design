@@ -42,6 +42,10 @@ Use the Abstract Factory pattern in any of the following situations:
 
 **Task**
 
-An online business sells gift items to both individuals and businesses. Each order is treated as a gift pack that may contain 1 or more gift items. When a customer places an order, the type of the gift pack has to be specified as one of the 3 - Business, Adults, or Kids. Depending on the gift pack type, each individual gift item needs to be packaged accordingly. For example, a gift item for a kid can be packaged with a „Micky Gift Bag‟, or a „Cartoon Box‟ or the „Happy Kid‟ gift wrap which has a different cost associated with each option (selected by the person placing the order). For now, there are only 3 available options – gift bag, gift box or gift wrap. For the Business type, the options are „Merchant Collection‟ bag, „Hard Plastic‟ box and „Holiday Surprise‟ wrap. For the Adults, they „Reusable Shopper‟ bag, „Plain Paper‟ box, and „Everyday Value‟ wrap. Prices as listed below.
-![Structure](http://i.imgur.com/s1Hcd1q.png)
-Suppose you are going to create a model and implement it with the Abstract Factory Pattern for the business to easily get packaging instructions and calculate the packaging cost from each of the orders. Also provide a client program that prints the packing instructions and the total packaging cost for each gift pack.
+Below is a high-level view of the browser architecture. We are going to implement a “render tree” for the rendering engine. A render tree is basically a data structure that stores all visual elements in an html document with the original relations, dimensions, stylings information kept (for example, parent- child/sibling relations, height, width, color, styles, etc.).
+![Render process](http://i.imgur.com/rFmvv69.png)
+The rendering engine processes/renders information in the following sequence. The “render tree” is created in the second “box” in the diagram.
+![Structure](http://i.imgur.com/HcFJkL1.png)
+
+[Task solution](../task)
+
