@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.control.TextArea?>
 <GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.112"
-          xmlns:fx="http://javafx.com/fxml/1" fx:controller="observable.UiController">
+          xmlns:fx="http://javafx.com/fxml/1" fx:controller="observer.UiController">
     <children>
         <VBox alignment="CENTER" spacing="5">
             <children>

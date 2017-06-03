@@ -1,4 +1,4 @@
-package observable;
+package observer;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
@@ -7,12 +7,10 @@ import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.stage.Stage;
 
 import java.net.URL;
-import java.util.Collections;
 import java.util.ResourceBundle;
 import java.util.UUID;
 

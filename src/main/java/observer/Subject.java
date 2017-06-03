@@ -1,4 +1,4 @@
-package observable;
+package observer;
 
 /**
  * Created by Beka on 27.04.17.
