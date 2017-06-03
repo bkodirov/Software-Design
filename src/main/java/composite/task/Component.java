@@ -1,4 +1,4 @@
-package composite;
+package composite.task;
 
 import java.util.ArrayList;
 import java.util.Collection;

@@ -1,16 +1,16 @@
-package composite;
+package composite.task;
 
 /**
  * Created by Beka on 10.04.17.
  */
-public class HtmlComposite extends Component {
-    public HtmlComposite() {
+public class HEADComposite extends Component {
+    public HEADComposite() {
         super(null);
     }
 
     @Override
     public void render() {
-        System.out.println("This is a Html");
+        System.out.println("This is a Head");
         for (Component component : list) {
             component.render();
         }

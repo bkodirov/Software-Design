@@ -1,4 +1,4 @@
-package composite;
+package composite.task;
 
 /**
  * Created by Beka on 10.04.17.
