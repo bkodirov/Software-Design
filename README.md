@@ -2,9 +2,9 @@
 
 [Singleton](../singleton)
 <br/>
-[Adapter](./adapter)
+[Adapter](/src/main/java/adapter)
 <br/>
-[Proxy](./proxy)
+[Proxy](./src/main/java/proxy)
 <br/>
-[Template](../template)
+[Template](../src/main/java/template)
 
