@@ -1,4 +1,4 @@
-package builder.classic;
+package builder.task;
 
 import java.util.Date;
 import java.util.Random;

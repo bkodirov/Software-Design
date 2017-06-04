@@ -1,4 +1,4 @@
-package builder.classic;
+package builder.task;
 
 /**
  * Created by Beka on 10.04.17.

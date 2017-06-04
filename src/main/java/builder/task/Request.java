@@ -1,4 +1,4 @@
-package builder.classic;
+package builder.task;
 
 public class Request {
     private String reqId;

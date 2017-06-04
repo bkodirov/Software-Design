@@ -12,7 +12,7 @@ public class Employee implements Cloneable, Serializable {
     public Employee staff[];
 
     /**
-     * This is a classic version of the Prototype pattern. This will produce deep copy.
+     * This is a task version of the Prototype pattern. This will produce deep copy.
      * @return
      * @throws CloneNotSupportedException
      */
