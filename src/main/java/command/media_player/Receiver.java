@@ -1,4 +1,4 @@
-package comand.player;
+package command.media_player;
 
 /**
  * Created by Beka on 10.04.17.
@@ -6,23 +6,23 @@ package comand.player;
  */
 public class Receiver {
     public void play() {
-        System.out.println("Music player status is playing");
+        System.out.println("Music media_player status is playing");
     }
 
     public void pause() {
-        System.out.println("Music player status is pause");
+        System.out.println("Music media_player status is pause");
     }
 
     public void stop() {
-        System.out.println("Music player status is stop");
+        System.out.println("Music media_player status is stop");
     }
 
     public void next() {
-        System.out.println("Music player status is next");
+        System.out.println("Music media_player status is next");
     }
 
     public void previous() {
-        System.out.println("Music player status is previous");
+        System.out.println("Music media_player status is previous");
     }
 
     public boolean isPlaying() {

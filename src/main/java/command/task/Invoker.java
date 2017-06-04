@@ -1,4 +1,4 @@
-package comand.game;
+package command.task;
 
 /**
  * Created by Beka on 10.04.17.

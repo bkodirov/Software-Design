@@ -1,4 +1,4 @@
-package comand.player;
+package command.media_player;
 
 /**
  * Created by Beka on 10.04.17.
