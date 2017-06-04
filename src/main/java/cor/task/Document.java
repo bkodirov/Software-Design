@@ -1,4 +1,4 @@
-package cor;
+package cor.task;
 
 /**
  * Created by Beka on 08.04.17.

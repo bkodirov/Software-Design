@@ -1,12 +1,12 @@
-package cor;
+package cor.task;
 
 import java.util.Random;
 
 /**
  * Created by Beka on 08.04.17.
  */
-public class TaHandler extends Handler {
-    protected TaHandler(Handler sucessor) {
+public class TaHandler extends AbstractHandler {
+    protected TaHandler(AbstractHandler sucessor) {
         super(sucessor);
     }
 

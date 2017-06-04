@@ -1,12 +1,12 @@
-package cor;
+package cor.task;
 
 /**
  * Created by Beka on 08.04.17.
  */
-public abstract class Handler {
-    private final Handler sucessor;
+public abstract class AbstractHandler {
+    private final AbstractHandler sucessor;
 
-    protected Handler(Handler sucessor) {
+    protected AbstractHandler(AbstractHandler sucessor) {
         this.sucessor = sucessor;
     }
 

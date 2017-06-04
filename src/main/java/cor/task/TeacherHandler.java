@@ -1,12 +1,12 @@
-package cor;
+package cor.task;
 
 import java.util.Random;
 
 /**
  * Created by Beka on 08.04.17.
  */
-public class TeacherHandler extends Handler {
-    protected TeacherHandler(Handler sucessor) {
+public class TeacherHandler extends AbstractHandler {
+    protected TeacherHandler(AbstractHandler sucessor) {
         super(sucessor);
     }
 
