@@ -36,7 +36,7 @@ public class BillPughSingleton {
      * This is the most widely used approach for Singleton class as it doesn’t require synchronization. This also called
      * Singleton holder pattern
      */
-    public static synchronized BillPughSingleton getInstance() {
+    public static BillPughSingleton getInstance() {
         return SingletonHolder.INSTANCE;
     }
 
